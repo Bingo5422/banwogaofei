@@ -1,0 +1,16 @@
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+xcshareddata/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log

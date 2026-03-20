@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.11.1)
+  - Kingfisher (6.3.1)
+  - TXLiteAVSDK_Professional (13.1.20476):
+    - TXLiteAVSDK_Professional/Professional (= 13.1.20476)
+  - TXLiteAVSDK_Professional/Professional (13.1.20476)
+  - WechatOpenSDK (2.0.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - Kingfisher
+  - TXLiteAVSDK_Professional
+  - WechatOpenSDK
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Kingfisher
+    - TXLiteAVSDK_Professional
+    - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  Alamofire: eec6cd8f73b242b59e34153a606a909eb9864b14
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  TXLiteAVSDK_Professional: 9ecc756f4222a2667e4a5d852dd006ee7af9b0ac
+  WechatOpenSDK: a363db41205f57abbc05bb6b80bf2d2ed1ea40bf
+
+PODFILE CHECKSUM: e756f745c2b3e84417ac0d5530e437822fe160f9
+
+COCOAPODS: 1.16.2

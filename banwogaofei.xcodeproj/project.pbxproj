@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C2C8F4398467E874A43DFE4 /* Pods_banwogaofei.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29442104BBC1E368EEB9E8EE /* Pods_banwogaofei.framework */; };
+		BAC3C3A648CC65148973707C /* Pods_banwogaofeiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90044F1AC8EC70F01F606E04 /* Pods_banwogaofeiTests.framework */; };
+		D3DD53A8752FDA2CB9200197 /* Pods_banwogaofeiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3761448F244AFD6CC5D0B538 /* Pods_banwogaofeiUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F058AE982F5672A6003CD0E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F058AE822F5672A5003CD0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F058AE892F5672A5003CD0E5;
+			remoteInfo = banwogaofei;
+		};
+		F058AEA22F5672A7003CD0E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F058AE822F5672A5003CD0E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F058AE892F5672A5003CD0E5;
+			remoteInfo = banwogaofei;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		137F5FD060E0E8D3D1F0BE75 /* Pods-banwogaofeiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banwogaofeiTests.release.xcconfig"; path = "Target Support Files/Pods-banwogaofeiTests/Pods-banwogaofeiTests.release.xcconfig"; sourceTree = "<group>"; };
+		257D240BBDA2AA06C2727A9D /* Pods-banwogaofei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banwogaofei.debug.xcconfig"; path = "Target Support Files/Pods-banwogaofei/Pods-banwogaofei.debug.xcconfig"; sourceTree = "<group>"; };
+		29442104BBC1E368EEB9E8EE /* Pods_banwogaofei.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_banwogaofei.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3761448F244AFD6CC5D0B538 /* Pods_banwogaofeiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_banwogaofeiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B61199677FF4D74138400FB /* Pods-banwogaofei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banwogaofei.release.xcconfig"; path = "Target Support Files/Pods-banwogaofei/Pods-banwogaofei.release.xcconfig"; sourceTree = "<group>"; };
+		78C01B157C70FDE3B95228E9 /* Pods-banwogaofeiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banwogaofeiUITests.debug.xcconfig"; path = "Target Support Files/Pods-banwogaofeiUITests/Pods-banwogaofeiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		90044F1AC8EC70F01F606E04 /* Pods_banwogaofeiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_banwogaofeiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B245E1E7065B546B5C4C038F /* Pods-banwogaofeiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banwogaofeiUITests.release.xcconfig"; path = "Target Support Files/Pods-banwogaofeiUITests/Pods-banwogaofeiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F058AE8A2F5672A5003CD0E5 /* banwogaofei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = banwogaofei.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F058AE972F5672A6003CD0E5 /* banwogaofeiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banwogaofeiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F058AEA12F5672A6003CD0E5 /* banwogaofeiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = banwogaofeiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0BD8B3C2F581F7700C786CE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB975D60E41BDDF491B790A /* Pods-banwogaofeiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-banwogaofeiTests.debug.xcconfig"; path = "Target Support Files/Pods-banwogaofeiTests/Pods-banwogaofeiTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		F058AE8C2F5672A5003CD0E5 /* banwogaofei */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = banwogaofei;
+			sourceTree = "<group>";
+		};
+		F058AE9A2F5672A6003CD0E5 /* banwogaofeiTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = banwogaofeiTests;
+			sourceTree = "<group>";
+		};
+		F058AEA42F5672A7003CD0E5 /* banwogaofeiUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = banwogaofeiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F058AE872F5672A5003CD0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C2C8F4398467E874A43DFE4 /* Pods_banwogaofei.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058AE942F5672A6003CD0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC3C3A648CC65148973707C /* Pods_banwogaofeiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058AE9E2F5672A6003CD0E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DD53A8752FDA2CB9200197 /* Pods_banwogaofeiUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F910A610DCC98B20C6A6DEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				257D240BBDA2AA06C2727A9D /* Pods-banwogaofei.debug.xcconfig */,
+				5B61199677FF4D74138400FB /* Pods-banwogaofei.release.xcconfig */,
+				FAB975D60E41BDDF491B790A /* Pods-banwogaofeiTests.debug.xcconfig */,
+				137F5FD060E0E8D3D1F0BE75 /* Pods-banwogaofeiTests.release.xcconfig */,
+				78C01B157C70FDE3B95228E9 /* Pods-banwogaofeiUITests.debug.xcconfig */,
+				B245E1E7065B546B5C4C038F /* Pods-banwogaofeiUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5AF1FBBB9350916E749D5A77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0BD8B3C2F581F7700C786CE /* Alamofire.framework */,
+				29442104BBC1E368EEB9E8EE /* Pods_banwogaofei.framework */,
+				90044F1AC8EC70F01F606E04 /* Pods_banwogaofeiTests.framework */,
+				3761448F244AFD6CC5D0B538 /* Pods_banwogaofeiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F058AE812F5672A5003CD0E5 = {
+			isa = PBXGroup;
+			children = (
+				F058AE8C2F5672A5003CD0E5 /* banwogaofei */,
+				F058AE9A2F5672A6003CD0E5 /* banwogaofeiTests */,
+				F058AEA42F5672A7003CD0E5 /* banwogaofeiUITests */,
+				F058AE8B2F5672A5003CD0E5 /* Products */,
+				1F910A610DCC98B20C6A6DEC /* Pods */,
+				5AF1FBBB9350916E749D5A77 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F058AE8B2F5672A5003CD0E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F058AE8A2F5672A5003CD0E5 /* banwogaofei.app */,
+				F058AE972F5672A6003CD0E5 /* banwogaofeiTests.xctest */,
+				F058AEA12F5672A6003CD0E5 /* banwogaofeiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F058AE892F5672A5003CD0E5 /* banwogaofei */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F058AEAB2F5672A7003CD0E5 /* Build configuration list for PBXNativeTarget "banwogaofei" */;
+			buildPhases = (
+				5B5A0EC37B6FEBBFAFC981BF /* [CP] Check Pods Manifest.lock */,
+				F058AE862F5672A5003CD0E5 /* Sources */,
+				F058AE872F5672A5003CD0E5 /* Frameworks */,
+				F058AE882F5672A5003CD0E5 /* Resources */,
+				A4D0B24A166AB17938A7B716 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				F058AE8C2F5672A5003CD0E5 /* banwogaofei */,
+			);
+			name = banwogaofei;
+			productName = banwogaofei;
+			productReference = F058AE8A2F5672A5003CD0E5 /* banwogaofei.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F058AE962F5672A6003CD0E5 /* banwogaofeiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F058AEAE2F5672A7003CD0E5 /* Build configuration list for PBXNativeTarget "banwogaofeiTests" */;
+			buildPhases = (
+				0FB76EC2EB2E25E09D7C3685 /* [CP] Check Pods Manifest.lock */,
+				F058AE932F5672A6003CD0E5 /* Sources */,
+				F058AE942F5672A6003CD0E5 /* Frameworks */,
+				F058AE952F5672A6003CD0E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F058AE992F5672A6003CD0E5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F058AE9A2F5672A6003CD0E5 /* banwogaofeiTests */,
+			);
+			name = banwogaofeiTests;
+			productName = banwogaofeiTests;
+			productReference = F058AE972F5672A6003CD0E5 /* banwogaofeiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F058AEA02F5672A6003CD0E5 /* banwogaofeiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F058AEB12F5672A7003CD0E5 /* Build configuration list for PBXNativeTarget "banwogaofeiUITests" */;
+			buildPhases = (
+				98C8A629910BC24DAFF7E0BF /* [CP] Check Pods Manifest.lock */,
+				F058AE9D2F5672A6003CD0E5 /* Sources */,
+				F058AE9E2F5672A6003CD0E5 /* Frameworks */,
+				F058AE9F2F5672A6003CD0E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F058AEA32F5672A7003CD0E5 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				F058AEA42F5672A7003CD0E5 /* banwogaofeiUITests */,
+			);
+			name = banwogaofeiUITests;
+			productName = banwogaofeiUITests;
+			productReference = F058AEA12F5672A6003CD0E5 /* banwogaofeiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F058AE822F5672A5003CD0E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					F058AE892F5672A5003CD0E5 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					F058AE962F5672A6003CD0E5 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = F058AE892F5672A5003CD0E5;
+					};
+					F058AEA02F5672A6003CD0E5 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = F058AE892F5672A5003CD0E5;
+					};
+				};
+			};
+			buildConfigurationList = F058AE852F5672A5003CD0E5 /* Build configuration list for PBXProject "banwogaofei" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F058AE812F5672A5003CD0E5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F058AE8B2F5672A5003CD0E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F058AE892F5672A5003CD0E5 /* banwogaofei */,
+				F058AE962F5672A6003CD0E5 /* banwogaofeiTests */,
+				F058AEA02F5672A6003CD0E5 /* banwogaofeiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F058AE882F5672A5003CD0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058AE952F5672A6003CD0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058AE9F2F5672A6003CD0E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FB76EC2EB2E25E09D7C3685 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-banwogaofeiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B5A0EC37B6FEBBFAFC981BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-banwogaofei-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C8A629910BC24DAFF7E0BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-banwogaofeiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D0B24A166AB17938A7B716 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-banwogaofei/Pods-banwogaofei-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-banwogaofei/Pods-banwogaofei-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-banwogaofei/Pods-banwogaofei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F058AE862F5672A5003CD0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058AE932F5672A6003CD0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F058AE9D2F5672A6003CD0E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F058AE992F5672A6003CD0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F058AE892F5672A5003CD0E5 /* banwogaofei */;
+			targetProxy = F058AE982F5672A6003CD0E5 /* PBXContainerItemProxy */;
+		};
+		F058AEA32F5672A7003CD0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F058AE892F5672A5003CD0E5 /* banwogaofei */;
+			targetProxy = F058AEA22F5672A7003CD0E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F058AEA92F5672A7003CD0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 787C82HQJ2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F058AEAA2F5672A7003CD0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 787C82HQJ2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F058AEAC2F5672A7003CD0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 257D240BBDA2AA06C2727A9D /* Pods-banwogaofei.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = banwogaofei/banwogaofei.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63ZJ9PU5P;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问你的相机权限，开启后录制的视频才会有画面";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问您的麦克风权限，开启后录制的视频才会有声音";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D APP_ENV_TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banwogaofei.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "banwogaofei/banwogaofei-Bridging-Header.h";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		F058AEAD2F5672A7003CD0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B61199677FF4D74138400FB /* Pods-banwogaofei.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = banwogaofei/banwogaofei.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M63ZJ9PU5P;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "需要访问你的相机权限，开启后录制的视频才会有画面";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "需要访问您的麦克风权限，开启后录制的视频才会有声音";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D APP_ENV_PROD";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banwogaofei.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "banwogaofei/banwogaofei-Bridging-Header.h";
+				SWIFT_STRICT_CONCURRENCY = targeted;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		F058AEAF2F5672A7003CD0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB975D60E41BDDF491B790A /* Pods-banwogaofeiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 787C82HQJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.banwogaofei.com.banwogaofeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/banwogaofei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/banwogaofei";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		F058AEB02F5672A7003CD0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 137F5FD060E0E8D3D1F0BE75 /* Pods-banwogaofeiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 787C82HQJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.banwogaofei.com.banwogaofeiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/banwogaofei.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/banwogaofei";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		F058AEB22F5672A7003CD0E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78C01B157C70FDE3B95228E9 /* Pods-banwogaofeiUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 787C82HQJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.banwogaofei.com.banwogaofeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = banwogaofei;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		F058AEB32F5672A7003CD0E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B245E1E7065B546B5C4C038F /* Pods-banwogaofeiUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 787C82HQJ2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				MACOSX_DEPLOYMENT_TARGET = 15.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.banwogaofei.com.banwogaofeiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TEST_TARGET_NAME = banwogaofei;
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F058AE852F5672A5003CD0E5 /* Build configuration list for PBXProject "banwogaofei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F058AEA92F5672A7003CD0E5 /* Debug */,
+				F058AEAA2F5672A7003CD0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F058AEAB2F5672A7003CD0E5 /* Build configuration list for PBXNativeTarget "banwogaofei" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F058AEAC2F5672A7003CD0E5 /* Debug */,
+				F058AEAD2F5672A7003CD0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F058AEAE2F5672A7003CD0E5 /* Build configuration list for PBXNativeTarget "banwogaofeiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F058AEAF2F5672A7003CD0E5 /* Debug */,
+				F058AEB02F5672A7003CD0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F058AEB12F5672A7003CD0E5 /* Build configuration list for PBXNativeTarget "banwogaofeiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F058AEB22F5672A7003CD0E5 /* Debug */,
+				F058AEB32F5672A7003CD0E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F058AE822F5672A5003CD0E5 /* Project object */;
+}
